@@ -8,38 +8,8 @@
 
 MoSAI is structured as a decoupled, microservice-based architecture:
 
-```
-                      +---------------------------------------+
-                      |       Next.js 14 Frontend (UI)        |
-                      |  - Dashboard & Parameter Wizard       |
-                      |  - Dynamic MCDA Priority Sliders      |
-                      |  - Candidate Comparison Grid & Radar  |
-                      |  - TDS Dropzone & Audit PDF Viewer    |
-                      +-------------------+-------------------+
-                                          | REST APIs
-                                          v
-                      +---------------------------------------+
-                      |     Node.js / Express Gateway         |
-                      |  - JWT Authentication & Auth Guards   |
-                      |  - PostgreSQL / SQLite Dual-Engine    |
-                      |  - Materials & Audit Logs Management  |
-                      |  - Orchestrator Proxy to Python       |
-                      +-------------------+-------------------+
-                                          | Internal Microservice Call
-                                          v
-                      +---------------------------------------+
-                      |   Scientific Python Microservice      |
-                      |  - Fick's Law + GAB Isotherm (WVTR)   |
-                      |  - Michaelis-Menten Kinetics (OTR)    |
-                      |  - Deterministic FSSAI Hard Filters   |
-                      |  - MCDA Weighted Sum Model (WSM)      |
-                      |  - RAG Compliance Verifier (Gemini)   |
-                      |  - ReportLab PDF Generator + QR Code  |
-                      +---------------------------------------+
-```
-
+<img width="1672" height="940" alt="MOSAI System Architecture Diagram" src="https://github.com/user-attachments/assets/0e9e3dc0-4943-4ee4-9bce-f682c30903e9" />
 ---
-
 ## 📐 Scientific Physics Engine Specifications
 
 ### 1. Permissible Moisture Flux ($WVTR_{req}$)
