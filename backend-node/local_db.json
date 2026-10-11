@@ -1,0 +1,4479 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "auditor@fssai.gov.in",
+      "password_hash": "$2a$10$52U9xv.8sxVsNVXtUZfoReSIcr5gtRCJY.zSbPTTRr/JSzgMB1gtS",
+      "name": "Dr. R. Sharma",
+      "created_at": "2026-10-11T21:56:49.595Z"
+    },
+    {
+      "id": 2,
+      "email": "devrajguptaa69@gmail.com",
+      "password_hash": "$2a$10$YYHg9aAn9w0LvbT/BfyCtO9FsJky1KMTKVuGxpEGrlqqmQ3as9.Gm",
+      "name": "devraj gupta",
+      "created_at": "2026-10-11T22:22:06.122Z"
+    },
+    {
+      "id": 3,
+      "email": "devraj@gmail.com",
+      "password_hash": "$2a$10$5T3CYs/dW2jNxsXG/iB.XOZ3ABVJn5peVMMA5fvvZ4aieg85QqgFG",
+      "name": "devraj",
+      "created_at": "2026-10-11T22:55:33.185Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "name": "LDPE (Low-Density Polyethylene)",
+      "grade": "Extrusion Grade 22FA002",
+      "wvtr": 11,
+      "otr": 2700,
+      "thickness": 70,
+      "cost_per_sqm": 125,
+      "eco_score": 65,
+      "category": "Polyolefin Film",
+      "acid_resistant": true,
+      "fat_safe": false,
+      "breathable": false,
+      "biodegradable": false,
+      "created_at": "2026-10-11T21:44:37.866Z"
+    },
+    {
+      "id": 2,
+      "name": "HDPE (High-Density Polyethylene)",
+      "grade": "Blow Molding Grade 52GB003",
+      "wvtr": 3.8,
+      "otr": 2000,
+      "thickness": 60,
+      "cost_per_sqm": 132,
+      "eco_score": 75,
+      "category": "Rigid Polyolefin",
+      "acid_resistant": true,
+      "fat_safe": true,
+      "breathable": false,
+      "biodegradable": false,
+      "created_at": "2026-10-11T21:44:37.875Z"
+    },
+    {
+      "id": 3,
+      "name": "PET / LLDPE Laminate",
+      "grade": "Dry Bonded Dual Layer",
+      "wvtr": 1.2,
+      "otr": 75,
+      "thickness": 50,
+      "cost_per_sqm": 155,
+      "eco_score": 70,
+      "category": "Barrier Laminate",
+      "acid_resistant": true,
+      "fat_safe": true,
+      "breathable": false,
+      "biodegradable": false,
+      "created_at": "2026-10-11T21:44:37.875Z"
+    },
+    {
+      "id": 4,
+      "name": "PET / VMPET / LLDPE (Metalized)",
+      "grade": "Vacuum Metalized Barrier",
+      "wvtr": 0.8,
+      "otr": 1.5,
+      "thickness": 45,
+      "cost_per_sqm": 195,
+      "eco_score": 45,
+      "category": "High Barrier Metalized",
+      "acid_resistant": false,
+      "fat_safe": true,
+      "breathable": false,
+      "biodegradable": false,
+      "created_at": "2026-10-11T21:44:37.876Z"
+    },
+    {
+      "id": 5,
+      "name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+      "grade": "Triplex Retort Grade",
+      "wvtr": 0.005,
+      "otr": 0.005,
+      "thickness": 90,
+      "cost_per_sqm": 340,
+      "eco_score": 30,
+      "category": "Hermetic High Barrier",
+      "acid_resistant": true,
+      "fat_safe": true,
+      "breathable": false,
+      "biodegradable": false,
+      "created_at": "2026-10-11T21:44:37.883Z"
+    },
+    {
+      "id": 6,
+      "name": "Biodegradable Film (PLA / PBAT)",
+      "grade": "EN 13432 Compostable",
+      "wvtr": 180,
+      "otr": 950,
+      "thickness": 35,
+      "cost_per_sqm": 280,
+      "eco_score": 95,
+      "category": "Bio-based Compostable",
+      "acid_resistant": false,
+      "fat_safe": false,
+      "breathable": true,
+      "biodegradable": true,
+      "created_at": "2026-10-11T21:44:37.883Z"
+    },
+    {
+      "id": 7,
+      "name": "Micro-Perforated LDPE / PP",
+      "grade": "Laser Perforated MAP Film",
+      "wvtr": 14,
+      "otr": 12000,
+      "thickness": 30,
+      "cost_per_sqm": 150,
+      "eco_score": 60,
+      "category": "Perforated MAP Produce",
+      "acid_resistant": true,
+      "fat_safe": false,
+      "breathable": true,
+      "biodegradable": false,
+      "created_at": "2026-10-11T21:44:37.884Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": 1,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-B8A5766470B8",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-B8A5766470B8",
+        "generated_at": "2026-10-11T21:55:53.999Z"
+      },
+      "created_at": "2026-10-11T21:55:53.999Z",
+      "review_status": "Approved for Production",
+      "review_notes": "Production trial passed IS 9845 migration"
+    },
+    {
+      "id": 2,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-1F27CBFF51CC",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-1F27CBFF51CC",
+        "generated_at": "2026-10-11T22:13:53.696Z"
+      },
+      "created_at": "2026-10-11T22:13:53.696Z"
+    },
+    {
+      "id": 3,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-93CEF0ECE320",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-93CEF0ECE320",
+        "generated_at": "2026-10-11T22:13:53.711Z"
+      },
+      "created_at": "2026-10-11T22:13:53.711Z"
+    },
+    {
+      "id": 4,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Instant Fried Noodles",
+        "pack_mass": 500,
+        "moisture_crit": 5,
+        "fat_content": 18,
+        "ph": 6.4,
+        "pouch_area": 0.08,
+        "shelf_days": 270,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-5F3FABC7EB26",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Instant Fried Noodles",
+          "pack_mass": 500,
+          "moisture_crit": 5,
+          "initial_moisture": null,
+          "fat_content": 18,
+          "ph": 6.4,
+          "pouch_area": 0.08,
+          "shelf_days": 270,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 500,
+            "delta_m_max_grams": 12.5,
+            "initial_moisture_pct": 2.5,
+            "critical_moisture_pct": 5,
+            "aw_initial": 0.133,
+            "aw_critical": 0.503,
+            "aw_internal_avg": 0.318,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.532,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 3.525,
+            "pouch_area_sqm": 0.08,
+            "shelf_life_days": 270,
+            "wvtr_required": 1.0876,
+            "gab_parameters": {
+              "monolayer_moisture": 3.5,
+              "c_constant": 16.5,
+              "k_constant": 0.78
+            }
+          },
+          "otr": {
+            "pack_mass_g": 500,
+            "pouch_area_sqm": 0.08,
+            "shelf_life_days": 270,
+            "is_living_produce": false,
+            "otr_required": 4.96,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 22.5,
+              "fat_content_pct": 18,
+              "shelf_life_days": 270
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 1.0876,
+            "otr_required": 4.96,
+            "delta_m_max_grams": 12.5,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 54.3,
+            "barrier_score": 99.5,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 43.6,
+            "barrier_score": 26.4,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (18.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (18.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (18.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (18.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (18.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (18.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (1.09 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 2,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-5F3FABC7EB26",
+        "generated_at": "2026-10-11T22:14:10.455Z"
+      },
+      "created_at": "2026-10-11T22:14:10.455Z"
+    },
+    {
+      "id": 5,
+      "user_id": null,
+      "material_id": 3,
+      "food_params": {
+        "commodity_name": "Whole Wheat Atta",
+        "pack_mass": 500,
+        "moisture_crit": 14,
+        "fat_content": 1.8,
+        "ph": 6.2,
+        "pouch_area": 0.08,
+        "shelf_days": 120,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-7A1B62C4167B",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Whole Wheat Atta",
+          "pack_mass": 500,
+          "moisture_crit": 14,
+          "initial_moisture": null,
+          "fat_content": 1.8,
+          "ph": 6.2,
+          "pouch_area": 0.08,
+          "shelf_days": 120,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 500,
+            "delta_m_max_grams": 35,
+            "initial_moisture_pct": 7,
+            "critical_moisture_pct": 14,
+            "aw_initial": 0.391,
+            "aw_critical": 0.855,
+            "aw_internal_avg": 0.623,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.227,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 1.502,
+            "pouch_area_sqm": 0.08,
+            "shelf_life_days": 120,
+            "wvtr_required": 16.0816,
+            "gab_parameters": {
+              "monolayer_moisture": 6.2,
+              "c_constant": 15.4,
+              "k_constant": 0.74
+            }
+          },
+          "otr": {
+            "pack_mass_g": 500,
+            "pouch_area_sqm": 0.08,
+            "shelf_life_days": 120,
+            "is_living_produce": false,
+            "otr_required": 24.802,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 50,
+              "fat_content_pct": 1.8,
+              "shelf_life_days": 120
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 16.0816,
+            "otr_required": 24.802,
+            "delta_m_max_grams": 35,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 86.9,
+            "barrier_score": 92.5,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 83.3,
+            "barrier_score": 76.4,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 77.9,
+            "barrier_score": 95,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 60.5,
+            "barrier_score": 31.6,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 54.5,
+            "barrier_score": 100,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 46.4,
+            "barrier_score": 12.9,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (16.08 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (180.00 g/m²/day) exceeds required moisture threshold (16.08 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 6,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-7A1B62C4167B",
+        "generated_at": "2026-10-11T22:17:00.581Z"
+      },
+      "created_at": "2026-10-11T22:17:00.581Z"
+    },
+    {
+      "id": 6,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Mustard Oil",
+        "pack_mass": 200,
+        "moisture_crit": 0.25,
+        "fat_content": 99.9,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 365,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-6A94583345A6",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Mustard Oil",
+          "pack_mass": 200,
+          "moisture_crit": 0.25,
+          "initial_moisture": null,
+          "fat_content": 99.9,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 365,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 0.25,
+            "initial_moisture_pct": 0.12,
+            "critical_moisture_pct": 0.25,
+            "aw_initial": 0.894,
+            "aw_critical": 0.758,
+            "aw_internal_avg": 0.826,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.08,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 0.53,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 365,
+            "wvtr_required": 0.1712,
+            "gab_parameters": {
+              "monolayer_moisture": 0.08,
+              "c_constant": 4,
+              "k_constant": 0.55
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 365,
+            "is_living_produce": false,
+            "otr_required": 0.783,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 99.9,
+              "shelf_life_days": 365
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.1712,
+            "otr_required": 0.783,
+            "delta_m_max_grams": 0.25,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53,
+            "barrier_score": 97.1,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (99.9% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (99.9% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (99.9% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (99.9% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (99.9% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (99.9% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.17 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-6A94583345A6",
+        "generated_at": "2026-10-11T22:19:01.533Z"
+      },
+      "created_at": "2026-10-11T22:19:01.533Z"
+    },
+    {
+      "id": 7,
+      "user_id": null,
+      "material_id": 7,
+      "food_params": {
+        "commodity_name": "Fresh Tomatoes",
+        "pack_mass": 1000,
+        "moisture_crit": 94,
+        "fat_content": 0.2,
+        "ph": 4.2,
+        "pouch_area": 0.12,
+        "shelf_days": 18,
+        "ro2": 15,
+        "ambient_rh": 90,
+        "ambient_temp": 20
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-87E727DA1A2F",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Fresh Tomatoes",
+          "pack_mass": 1000,
+          "moisture_crit": 94,
+          "initial_moisture": null,
+          "fat_content": 0.2,
+          "ph": 4.2,
+          "pouch_area": 0.12,
+          "shelf_days": 18,
+          "ro2": 15,
+          "ambient_rh": 90,
+          "ambient_temp": 20
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 1000,
+            "delta_m_max_grams": 470,
+            "initial_moisture_pct": 47,
+            "critical_moisture_pct": 94,
+            "aw_initial": 0.888,
+            "aw_critical": 0.95,
+            "aw_internal_avg": 0.919,
+            "aw_ambient": 0.9,
+            "delta_aw": 0.08,
+            "p_sat_kpa": 2.338,
+            "delta_p_kpa": 0.187,
+            "pouch_area_sqm": 0.12,
+            "shelf_life_days": 18,
+            "wvtr_required": 2719.9074,
+            "gab_parameters": {
+              "monolayer_moisture": 16,
+              "c_constant": 5.5,
+              "k_constant": 0.93
+            }
+          },
+          "otr": {
+            "pack_mass_g": 1000,
+            "pouch_area_sqm": 0.12,
+            "shelf_life_days": 18,
+            "is_living_produce": true,
+            "otr_required": 17647.06,
+            "biological_classification": "Living Horticultural Commodity (MAP Equilibrium)",
+            "kinetics_details": {
+              "hourly_r_o2_ml_kg_hr": 15,
+              "daily_pack_o2_consumption_cm3": 360,
+              "target_internal_o2_pct": 4,
+              "target_internal_co2_pct": 5,
+              "temperature_celsius": 20
+            }
+          },
+          "is_living": true,
+          "summary": {
+            "wvtr_required": 2719.9074,
+            "otr_required": 17647.06,
+            "delta_m_max_grams": 470,
+            "classification": "Living Horticultural Commodity (MAP Equilibrium)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 73.9,
+            "barrier_score": 68,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 15.3,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce"
+            ],
+            "cited_clauses": [
+              "FSSAI Reg 4(6) & National Horticulture Board MAP Protocol (Minimum O2 Permeability)"
+            ],
+            "audit_trail": "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 11.3,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce"
+            ],
+            "cited_clauses": [
+              "FSSAI Reg 4(6) & National Horticulture Board MAP Protocol (Minimum O2 Permeability)"
+            ],
+            "audit_trail": "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0.4,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce"
+            ],
+            "cited_clauses": [
+              "FSSAI Reg 4(6) & National Horticulture Board MAP Protocol (Minimum O2 Permeability)"
+            ],
+            "audit_trail": "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce"
+            ],
+            "cited_clauses": [
+              "FSSAI Reg 4(6) & National Horticulture Board MAP Protocol (Minimum O2 Permeability)"
+            ],
+            "audit_trail": "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [
+              "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce"
+            ],
+            "cited_clauses": [
+              "FSSAI Reg 4(6) & National Horticulture Board MAP Protocol (Minimum O2 Permeability)"
+            ],
+            "audit_trail": "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 5.4,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce"
+            ],
+            "cited_clauses": [
+              "FSSAI Reg 4(6) & National Horticulture Board MAP Protocol (Minimum O2 Permeability)"
+            ],
+            "audit_trail": "Non-breathable/Hermetic barrier causes rapid anaerobic decay, ethanol fermentation, and botulism risk in living produce",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-87E727DA1A2F",
+        "generated_at": "2026-10-11T22:20:37.004Z"
+      },
+      "created_at": "2026-10-11T22:20:37.004Z"
+    },
+    {
+      "id": 8,
+      "user_id": 2,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-3E7EDFBF6FDC",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-3E7EDFBF6FDC",
+        "generated_at": "2026-10-11T22:31:19.779Z"
+      },
+      "created_at": "2026-10-11T22:31:19.779Z"
+    },
+    {
+      "id": 9,
+      "user_id": 2,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "qr_hash": "MOSAI-2F7DEDD17F40",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-2F7DEDD17F40",
+        "generated_at": "2026-10-11T22:31:19.781Z"
+      },
+      "created_at": "2026-10-11T22:31:19.781Z"
+    },
+    {
+      "id": 10,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "review_status": "In Review",
+      "review_notes": "",
+      "qr_hash": "MOSAI-D56EE8311E16",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-D56EE8311E16",
+        "generated_at": "2026-10-11T22:41:32.291Z"
+      },
+      "created_at": "2026-10-11T22:41:32.291Z"
+    },
+    {
+      "id": 11,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "review_status": "In Review",
+      "review_notes": "",
+      "qr_hash": "MOSAI-15B0FDE3CFDD",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-15B0FDE3CFDD",
+        "generated_at": "2026-10-11T22:41:32.296Z"
+      },
+      "created_at": "2026-10-11T22:41:32.296Z"
+    },
+    {
+      "id": 12,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "review_status": "In Review",
+      "review_notes": "",
+      "qr_hash": "MOSAI-8F03A370EE14",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-8F03A370EE14",
+        "generated_at": "2026-10-11T22:54:44.616Z"
+      },
+      "created_at": "2026-10-11T22:54:44.616Z"
+    },
+    {
+      "id": 13,
+      "user_id": null,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "review_status": "In Review",
+      "review_notes": "",
+      "qr_hash": "MOSAI-F5A81AF13A28",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-F5A81AF13A28",
+        "generated_at": "2026-10-11T22:54:44.622Z"
+      },
+      "created_at": "2026-10-11T22:54:44.622Z"
+    },
+    {
+      "id": 14,
+      "user_id": 3,
+      "material_id": 5,
+      "food_params": {
+        "commodity_name": "Potato Chips / Namkeen",
+        "pack_mass": 200,
+        "moisture_crit": 2,
+        "fat_content": 32,
+        "ph": 6,
+        "pouch_area": 0.05,
+        "shelf_days": 150,
+        "ro2": 0,
+        "ambient_rh": 85,
+        "ambient_temp": 38
+      },
+      "compliance_status": "Compliant",
+      "review_status": "In Review",
+      "review_notes": "",
+      "qr_hash": "MOSAI-C5318715475D",
+      "full_payload": {
+        "food_params": {
+          "commodity_name": "Potato Chips / Namkeen",
+          "pack_mass": 200,
+          "moisture_crit": 2,
+          "initial_moisture": null,
+          "fat_content": 32,
+          "ph": 6,
+          "pouch_area": 0.05,
+          "shelf_days": 150,
+          "ro2": 0,
+          "ambient_rh": 85,
+          "ambient_temp": 38
+        },
+        "weights": {
+          "weight_barrier": 0.5,
+          "weight_cost": 0.35,
+          "weight_eco": 0.15
+        },
+        "physics": {
+          "wvtr": {
+            "pack_mass_g": 200,
+            "delta_m_max_grams": 2,
+            "initial_moisture_pct": 1,
+            "critical_moisture_pct": 2,
+            "aw_initial": 0.056,
+            "aw_critical": 0.224,
+            "aw_internal_avg": 0.14,
+            "aw_ambient": 0.85,
+            "delta_aw": 0.71,
+            "p_sat_kpa": 6.625,
+            "delta_p_kpa": 4.701,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "wvtr_required": 0.3758,
+            "gab_parameters": {
+              "monolayer_moisture": 2.1,
+              "c_constant": 18,
+              "k_constant": 0.8
+            }
+          },
+          "otr": {
+            "pack_mass_g": 200,
+            "pouch_area_sqm": 0.05,
+            "shelf_life_days": 150,
+            "is_living_produce": false,
+            "otr_required": 1.905,
+            "biological_classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)",
+            "kinetics_details": {
+              "max_o2_tolerance_cm3": 3,
+              "fat_content_pct": 32,
+              "shelf_life_days": 150
+            }
+          },
+          "is_living": false,
+          "summary": {
+            "wvtr_required": 0.3758,
+            "otr_required": 1.905,
+            "delta_m_max_grams": 2,
+            "classification": "Processed / Shelf-Stable Commodity (Lipid Preservation)"
+          }
+        },
+        "ranked_materials": [
+          {
+            "id": 5,
+            "material_name": "PET / ALU / LLDPE (Aluminum Foil Laminate)",
+            "grade": "Triplex Retort Grade",
+            "thickness_um": 90,
+            "wvtr": 0.005,
+            "otr": 0.005,
+            "cost_inr_per_kg": 340,
+            "compliance_status": "Compliant",
+            "is_compliant": true,
+            "mcda_score": 53.8,
+            "barrier_score": 98.7,
+            "cost_score": 0,
+            "eco_score": 30,
+            "rejection_reasons": [],
+            "cited_clauses": [],
+            "audit_trail": "Passes all FSSAI barrier, migration, and safety thresholds",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 1,
+            "material_name": "LDPE (Low-Density Polyethylene)",
+            "grade": "Extrusion Grade 22FA002",
+            "thickness_um": 70,
+            "wvtr": 11,
+            "otr": 2700,
+            "cost_inr_per_kg": 125,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 100,
+            "eco_score": 65,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; WVTR (11.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 2,
+            "material_name": "HDPE (High-Density Polyethylene)",
+            "grade": "Blow Molding Grade 52GB003",
+            "thickness_um": 60,
+            "wvtr": 3.8,
+            "otr": 2000,
+            "cost_inr_per_kg": 132,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 96.7,
+            "eco_score": 75,
+            "rejection_reasons": [
+              "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (3.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 3,
+            "material_name": "PET / LLDPE Laminate",
+            "grade": "Dry Bonded Dual Layer",
+            "thickness_um": 50,
+            "wvtr": 1.2,
+            "otr": 75,
+            "cost_inr_per_kg": 155,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 86,
+            "eco_score": 70,
+            "rejection_reasons": [
+              "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (1.20 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 4,
+            "material_name": "PET / VMPET / LLDPE (Metalized)",
+            "grade": "Vacuum Metalized Barrier",
+            "thickness_um": 45,
+            "wvtr": 0.8,
+            "otr": 1.5,
+            "cost_inr_per_kg": 195,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 67.4,
+            "eco_score": 45,
+            "rejection_reasons": [
+              "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "WVTR (0.80 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": false,
+            "fat_safe": true,
+            "breathable": false,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 6,
+            "material_name": "Biodegradable Film (PLA / PBAT)",
+            "grade": "EN 13432 Compostable",
+            "thickness_um": 35,
+            "wvtr": 180,
+            "otr": 950,
+            "cost_inr_per_kg": 280,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 27.9,
+            "eco_score": 95,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (180.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": true,
+            "acid_resistant": false,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          },
+          {
+            "id": 7,
+            "material_name": "Micro-Perforated LDPE / PP",
+            "grade": "Laser Perforated MAP Film",
+            "thickness_um": 30,
+            "wvtr": 14,
+            "otr": 12000,
+            "cost_inr_per_kg": 150,
+            "compliance_status": "Rejected",
+            "is_compliant": false,
+            "mcda_score": 0,
+            "barrier_score": 0,
+            "cost_score": 88.4,
+            "eco_score": 60,
+            "rejection_reasons": [
+              "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard",
+              "Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity",
+              "WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)"
+            ],
+            "cited_clauses": [
+              "FSSAI Packaging Regs 2018, Reg 4(5) / IS 10146 Clause 5.2 (Simulant Iso-octane Resistance)",
+              "FSSAI Reg 3(1) (Integrity of Moisture Seal for Processed Goods)",
+              "IS 1060 (Part 2) / ASTM F1249 (Moisture Barrier Adequacy)"
+            ],
+            "audit_trail": "Inadequate grease barrier for high-fat food (32.0% fat): Delamination & mineral oil migration hazard; Excessive micro-porosity/breathability for non-respiring moisture-sensitive commodity; WVTR (14.00 g/m²/day) exceeds required moisture threshold (0.38 g/m²/day)",
+            "biodegradable": false,
+            "acid_resistant": true,
+            "fat_safe": false,
+            "breathable": true,
+            "weights_used": {
+              "w_barrier": 0.5,
+              "w_cost": 0.35,
+              "w_eco": 0.15
+            }
+          }
+        ],
+        "compliant_count": 1,
+        "total_evaluated": 7,
+        "qr_hash": "MOSAI-C5318715475D",
+        "generated_at": "2026-10-11T22:55:51.548Z"
+      },
+      "created_at": "2026-10-11T22:55:51.548Z"
+    }
+  ]
+}

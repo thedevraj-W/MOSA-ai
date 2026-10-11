@@ -1,0 +1,10 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+numpy>=1.26.0
+scipy>=1.12.0
+reportlab>=4.1.0
+qrcode[pil]>=7.4.2
+pypdf>=4.1.0
+google-generativeai>=0.5.0
+python-multipart>=0.0.9
