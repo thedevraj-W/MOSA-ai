@@ -10,6 +10,7 @@ MoSAI is structured as a decoupled, microservice-based architecture:
 
 <img width="1672" height="940" alt="MOSAI System Architecture Diagram" src="https://github.com/user-attachments/assets/0e9e3dc0-4943-4ee4-9bce-f682c30903e9" />
 ---
+
 ## 📐 Scientific Physics Engine Specifications
 
 ### 1. Permissible Moisture Flux ($WVTR_{req}$)
